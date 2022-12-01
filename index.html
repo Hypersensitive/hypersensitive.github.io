@@ -1,0 +1,51 @@
+<html>
+  <meta charset="utf-8">
+  
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    
+</head>
+<body>
+<h1>Tomo ovo su ti sve cestitke od nekih beskucnika.</h1>
+<h2>UCITAJ CESTITKEEE</h2>
+<div id="cestitke"></div>
+<div id="text-cestitke" ></div>
+<script src="cestitke.js"></script>
+
+<script>
+ 
+
+
+
+window.onload = function() {
+  
+  let text = "<select id='select-cestitke'>"
+  for (let x of cestitke) {
+    text += `<option value="${x.id}">  ${x.ime} </option>`;
+    
+  }
+  text += "</select>"
+  document.getElementById("cestitke").innerHTML = text;
+
+  document.getElementById('select-cestitke').addEventListener('change', (event) => 
+  {
+
+    let idc = event.target.value;
+    let cestitka = cestitke.find( c =>
+    {
+        return c.id == idc ? c.cestitka :null
+    })
+    
+    document.getElementById("text-cestitke").innerHTML = cestitka.cestitka;
+  })
+
+
+}
+
+
+
+</script>
+
+
+</body>
+</html>
