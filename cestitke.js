@@ -25,7 +25,7 @@
       },
       {
        "id": 5,
-       "ime": "Marta Andric",
+       "ime": "Marta Bogdanovic",
        "cestitka": "Srećan rođendan sunce moje slatko🌞 Želim ti da postaneš najbolji game designer i programer, a dečko već jesi❤️"
       },
       {
