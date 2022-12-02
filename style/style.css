@@ -1,4 +1,10 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   
   background: url("../img/adam.jpg");
@@ -18,12 +24,13 @@ body {
 
 #text-cestitke
 {
-  margin: 50px 0px;
-  max-width: 500px;
-  background-color: rgba(0, 0, 0, 0.884);
+  margin: 50px auto;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.781);
   color:azure;
   padding: 5px 5px;
   text-align: center;
+
   
 }
 
@@ -32,4 +39,12 @@ h1
 
   margin-bottom: 200px;
 
+}
+
+@media screen and (max-width: 600px) {
+
+  #text-cestitke
+  {
+  width: 100%;
+  }
 }
