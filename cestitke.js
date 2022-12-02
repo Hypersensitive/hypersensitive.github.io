@@ -167,5 +167,10 @@
        "id": 33,
        "ime": "Ilija Santric",
        "cestitka": "Tomo Srecan ti rodjendan! Da ti se ruke pozlate a hrana koju stvaras sa vremonom bude sve ukusnija! "
+      },
+      {
+       "id": 34,
+       "ime": "Andrea Karisik",
+       "cestitka": "Srecan rodjendan, Tomo! Hvala ti na svim kul pesmama i plejlistama sto saljes Luki, pa indirektno i meni. Much appriciated, stoga ti zelim puno finih koncerata i putovanja ove godine 🥳"
       }
      ]
